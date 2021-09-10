@@ -4,7 +4,7 @@ import (
     "context"
 
     tracelog "github.com/toniz/otel"
-//    pack2 "github.com/toniz/otel/demo/pack2"
+    pack2 "github.com/toniz/SLS-Aliyun/server/pack2"
 )
 
 func CallLevel_1(ctx context.Context) string {

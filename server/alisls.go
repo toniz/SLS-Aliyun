@@ -13,7 +13,7 @@ import (
     tracelog "github.com/toniz/otel"
 
     // test trace in package
-    "github.com/toniz/otel/demo/pack1"
+    "github.com/toniz/SLS-Aliyun/pack1"
 )
 
 var rc *redis.Client
@@ -63,7 +63,7 @@ func main() {
 }
 
 func call_level_3(ctx context.Context) string {
-    ctxc, _ := tracelog.NewSpan(ctx, "call_level_3", OtelSpanKindProducer)
+    ctxc, _ := tracelog.NewSpan(ctx, "call_level_3", tracelog.OtelSpanKindProducer)
     result := "-> 5" + call_level_3_1(ctxc)
 
     tracelog.SetSpanOK(ctxc, "Successssssss.")
@@ -78,7 +78,7 @@ func call_level_3(ctx context.Context) string {
 
 
 func call_level_3_1(ctx context.Context) string {
-    ctxc, _ := tracelog.NewSpan(ctx, "call_level_3_1", OtelSpanKindProducer)
+    ctxc, _ := tracelog.NewSpan(ctx, "call_level_3_1", tracelog.OtelSpanKindProducer)
 
     err := errors.New("MyTestError")
     tracelog.SetSpanError(ctxc, err)

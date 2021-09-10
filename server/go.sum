@@ -87,6 +87,8 @@ github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+
 github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
 github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
+github.com/toniz/SLS-Aliyun v0.0.0-20210910110203-a67c72077ca5 h1:It8CwwKE86ai6CnJiHZHVZb7lStFDCtIqT3NSWcKxxE=
+github.com/toniz/SLS-Aliyun v0.0.0-20210910110203-a67c72077ca5/go.mod h1:DZP/vj1xPfg0mwXpc/TELr/DfPBq1TH70DBTiPOOTJk=
 github.com/toniz/gosuit v0.1.57 h1:lVWuWrnU5RggflC+XkwcY2eBK8yCvyqQibRt969F80Q=
 github.com/toniz/gosuit v0.1.57/go.mod h1:od4kYjZPSeBM59ghZmPlgmvZKDh+G26UMpa2miozqYc=
 github.com/toniz/otel v0.0.13 h1:kZA+YT/7L2a9b/0GS14hbA7uFiUwKt6cO9cAC8Sw1ME=
@@ -95,6 +97,8 @@ github.com/toniz/otel v0.0.17 h1:0+KZUyuVestwKQ1azzuJKYPAOXG0SgokHzuJxRKE+es=
 github.com/toniz/otel v0.0.17/go.mod h1:4IhBGFrCBYmzKEd2RcJ/LFE0CefLOH3lrGl8gFdSUYM=
 github.com/toniz/otel v0.0.23 h1:HDWj4hMEAqRMzaTcZYCRjEL75Q/XVvFULmlPu2hai1o=
 github.com/toniz/otel v0.0.23/go.mod h1:4IhBGFrCBYmzKEd2RcJ/LFE0CefLOH3lrGl8gFdSUYM=
+github.com/toniz/otel v1.0.0 h1:0f47Kn471Udb3SMlIGP73098GGqFW8oI6xyiozY2BYA=
+github.com/toniz/otel v1.0.0/go.mod h1:4IhBGFrCBYmzKEd2RcJ/LFE0CefLOH3lrGl8gFdSUYM=
 github.com/yuin/goldmark v1.2.1/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 go.opentelemetry.io/contrib v0.23.0 h1:MgRuo0JZZX8J9WLRjyd7OpTSbaLOdQXXJa6SnZvlWLM=
 go.opentelemetry.io/contrib v0.23.0/go.mod h1:EH4yDYeNoaTqn/8yCWQmfNB78VHfGX2Jt2bvnvzBlGM=
