@@ -16,7 +16,6 @@ func CallLevel_2(ctx context.Context) string {
     tracelog.AddSpanEvent(ctxc, "UPDATE", params)
     tracelog.AddSpanAttribute(ctxc, map[string]string{"user_id": "1000098"})
 
-    res := call_level_redis(ctxc)
     tracelog.EndSpan(ctxc)
     return "-> 2" + res
 }

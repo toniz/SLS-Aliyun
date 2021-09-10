@@ -13,7 +13,7 @@ import (
     tracelog "github.com/toniz/otel"
 
     // test trace in package
-    "github.com/toniz/SLS-Aliyun/pack1"
+    "github.com/toniz/SLS-Aliyun/server/pack1"
 )
 
 var rc *redis.Client
