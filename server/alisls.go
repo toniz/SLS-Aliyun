@@ -20,7 +20,7 @@ var rc *redis.Client
 
 func main() {
     ctx := context.TODO()
-    err := tracelog.SetGrpcExport(ctx, "trace_ali_bbthis.json", "OrderService", "v0.3.10")
+    err := tracelog.SetGrpcExport(ctx, "trace_config.json", "OrderService", "v0.3.10")
     if err != nil {
         panic(err)
     }

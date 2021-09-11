@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-    err := tracelog.SetGrpcExport(context.TODO(), "trace_ali_bbthis.json", "OrderService", "v0.3.20")
+    err := tracelog.SetGrpcExport(context.TODO(), "trace_config.json", "OrderService", "v0.3.20")
     if err != nil {
         panic(err)
     }

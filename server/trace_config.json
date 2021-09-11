@@ -1,0 +1,10 @@
+{
+"name":"bbthis",
+"version":"v0.2.10",
+"trace_endpoint":"",
+"metric_endpoint":"",
+"project_id":"",
+"service_id":"",
+"access_key_id":"",
+"access_key_secret":""
+}
