@@ -10,7 +10,7 @@ import (
     redis "github.com/go-redis/redis/v8"
     "github.com/go-redis/redis/extra/redisotel/v8"
 
-    tracelog "github.com/toniz/otel"
+    tracelog "github.com/toniz/trace"
 
     // test trace in package
     "github.com/toniz/SLS-Aliyun/pack1"

@@ -3,7 +3,7 @@ package pack1
 import (
     "context"
 
-    tracelog "github.com/toniz/otel"
+    tracelog "github.com/toniz/trace"
     pack2 "github.com/toniz/SLS-Aliyun/pack2"
 )
 

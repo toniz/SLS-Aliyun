@@ -4,7 +4,7 @@ package pack2
 import (
     "context"
     "errors"
-    tracelog "github.com/toniz/otel"
+    tracelog "github.com/toniz/trace"
 )
 
 func CallLevel_2(ctx context.Context) string {

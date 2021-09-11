@@ -7,7 +7,7 @@ import (
     "time"
 
     "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
-    tracelog "github.com/toniz/otel"
+    tracelog "github.com/toniz/trace"
 )
 
 func main() {
