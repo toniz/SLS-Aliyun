@@ -14,9 +14,11 @@
 ## 结果演示：
 调用结果在阿里云的SLS服务里面查看：
 ![result1](doc/调用结果1.png)  
+--- 
 ![result2](doc/调用结果2.png)  
+---  
 ![result3](doc/调用结果3.png)  
-
+---
 
 etc..
 
