@@ -57,6 +57,8 @@ github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/toniz/otel v1.0.0 h1:0f47Kn471Udb3SMlIGP73098GGqFW8oI6xyiozY2BYA=
 github.com/toniz/otel v1.0.0/go.mod h1:4IhBGFrCBYmzKEd2RcJ/LFE0CefLOH3lrGl8gFdSUYM=
+github.com/toniz/trace v0.0.27 h1:Qnpk5myFjGf144eGuJYvA56gv1PSAATgVuBVLSxBQXQ=
+github.com/toniz/trace v0.0.27/go.mod h1:6vfzrhEduQvxd8fgt2Om76yre0E6ZtY4SnigvypvlEA=
 github.com/toniz/trace v1.0.0 h1:2QFg01aLXqhLnYt2DSb5/Zb8n5WfNXb380lDI+fQn6E=
 github.com/toniz/trace v1.0.0/go.mod h1:6vfzrhEduQvxd8fgt2Om76yre0E6ZtY4SnigvypvlEA=
 go.opentelemetry.io/contrib v0.23.0 h1:MgRuo0JZZX8J9WLRjyd7OpTSbaLOdQXXJa6SnZvlWLM=
