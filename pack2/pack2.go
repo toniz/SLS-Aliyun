@@ -8,7 +8,7 @@ import (
 )
 
 func CallLevel_2(ctx context.Context) string {
-    ctxc, _ := tracelog.NewSpan(ctx, "call_level_3_1", OtelSpanKindProducer)
+    ctxc, _ := tracelog.NewSpan(ctx, "call_level_3_1", tracelog.OtelSpanKindProducer)
 
     err := errors.New("MyTestError")
     tracelog.SetSpanError(ctxc, err)
